@@ -1,21 +1,21 @@
 CONTROL:
 /sbin/iw
-bluetooth
-hcitool dev
-awk
-amixer
-setxkbmap
-iproute2
-lxpolkit
-picom/compton
-playerctl
-brightnessctl
+bluetooth ??? included???
+hcitool dev ??? included in bluez???
+awk                   gawk
+amixer                alsa-utils
+setxkbmap             -included
+iproute2              iproute2
+lxpolkit              lxde.lxsession
+picom/compton         picom
+playerctl             playerctl
+brightnessctl         brightnessctl
 
 GRÁFICOS:
-blueman-manager
-rofi (git)
+blueman-manager       blueman
+rofi (git)            rofi
 inter-font (?)
-nitrogen 
+nitrogen              nitrogen
 redshift ----
 
 OTROS:

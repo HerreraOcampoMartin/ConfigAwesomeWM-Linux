@@ -1,7 +1,7 @@
 local VARS = {}
 
 --APPS
-VARS.browser = "firefox"
+VARS.browser = "brave"
 VARS.terminal = "kitty"
 VARS.file_manager = "thunar"
 VARS.editor = "neovide"
@@ -42,7 +42,7 @@ VARS.transparent = "#00000000"
 -- VARS.primaryFont = "#ffffff"
 VARS.primaryFont = "#ebdbb2"
 VARS.secondaryFont = "#ebdbb2"
-VARS.fontName = "FiraCode Nerd Font Mono "
+VARS.fontName = "DroidSansMono"
 VARS.smallFont = VARS.fontName .. "10"
 VARS.font = VARS.fontName .. "10"
 VARS.biggerFont = VARS.fontName .. "16"

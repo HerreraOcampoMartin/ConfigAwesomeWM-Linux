@@ -35,7 +35,7 @@ menubar.utils.terminal = VARS.terminal -- Set the terminal for applications that
 awful.spawn.with_shell("killall volumeicon")
 awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("lxpolkit")
-awful.spawn.with_shell("compton --config ~/.config/awesome/compton.conf")
+awful.spawn.with_shell("picom --config ~/.config/awesome/picom.conf")
 --awful.spawn.with_shell("compton -m 1 -i 0.9 --focus-exclude 'window_type != \"normal\"'")
 awful.spawn.with_shell("sh ~/.config/awesome/ExeDir.sh") --Execute all scripts in ./autostart (load settings, user custom software, etc)
 --awful.spawn.with_shell("compton -c -o 0.8 -m 1 -i 0.7 --focus-exclude 'name *?= \"rofi\"' --shadow-exclude 'window_type != \"normal\"'")

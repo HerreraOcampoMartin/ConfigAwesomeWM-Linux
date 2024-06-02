@@ -34,62 +34,62 @@ function TaglistWidget:create_widget(s)
 	    )
 	)
 
-   awful.tag({ "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " }, s, awful.layout.layouts[1])
+   -- awful.tag({ "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " }, s, awful.layout.layouts[1])
 
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/1.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	selected = true,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/2.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/3.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/4.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/5.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/6.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/7.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/8.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
-	--
-	-- awful.tag.add("", {
-	-- 	icon = VARS.icons_dir .. 'icons/9.svg',
-	-- 	layout = awful.layout.suit.max,
-	-- 	screen = s
-	-- })
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/1.svg',
+		layout = awful.layout.suit.max,
+		selected = true,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/2.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/3.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/4.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/5.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/6.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/7.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/8.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
+	
+	awful.tag.add("", {
+		icon = VARS.icons_dir .. 'icons/9.svg',
+		layout = awful.layout.suit.max,
+		screen = s
+	})
 
     self.widget = awful.widget.taglist {
         screen  = s,
